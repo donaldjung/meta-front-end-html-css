@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    gap: 20px;
+    background-color: rgb(203, 194, 194);
+    font-family: 'Arial', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rm;
+}
+
+h2 {
+    font-size: 2rm;
+}
+
+header > img {
+    display: block;
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: darkslategray;
+    border-radius: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+main {
+    display: grid;
+    gap: 30px;
+}
+
+section {
+    display: flex;
+    gap: 30px;
+
+}
+
+article {
+    flex: 1;
+}
+
+.article1 {
+    color: rgb(243, 234, 234);
+    background-image: url(pasta.jpg);
+    height: 200px;
+    text-align:center;
+    border-radius: 30px;
+    row-gap: 100px;
+    column-gap: 100px;
+}
+
+.article2 {
+    text-align: center;
+    background-color: #c9b284;
+    border-radius: 40px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: larger;
+    color: #ffffff; /* Matching dark gold color */
+    padding: 10px 15px;
+    display: flex;
+    text-align: center;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul a:hover {
+    color: #c9b284; /* Slightly lighter gold on hover */
+}
+
+section {
+    display: flex;
+    
+}
+
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+
+
+}
